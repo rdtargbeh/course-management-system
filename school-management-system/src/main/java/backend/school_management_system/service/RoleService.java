@@ -1,6 +1,6 @@
 package backend.school_management_system.service;
 
-import school_sms.sms.entity.Role;
+import backend.school_management_system.entity.Role;
 
 public interface RoleService {
     Role createRole(String roleName);
